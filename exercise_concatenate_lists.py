@@ -11,4 +11,14 @@ def concatenate_lists(lista1, lista2):
     Returns:
         Una nueva lista con todos los elementos de lista1 seguidos de lista2
     """
-    pass  # Reemplazar con tu implementación
+    
+    lista = lista1 + lista2
+    
+    return lista
+
+
+autos = ["Porsche" , "Ferrari", "Lamborghini"]
+numeros = [1, 2, 3, 4]
+
+print(concatenate_lists(autos, numeros))
+

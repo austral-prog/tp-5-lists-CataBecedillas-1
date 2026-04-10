@@ -10,4 +10,8 @@ def list_length(lista):
     Returns:
         Un entero con la cantidad de elementos
     """
-    pass  # Reemplazar con tu implementación
+    
+    return len(lista) #pongo return len(nombre de la función principal)
+
+autos = ["Porsche" , "Ferrari", "Lamborghini", "Bugatti", "Tesla"] #afuera de la función escribo la lista.
+print(list_length(autos)) #printeo la función con el paréntesis del nombre de la lista.

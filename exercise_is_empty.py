@@ -10,4 +10,14 @@ def is_empty(lista):
     Returns:
         True si la lista está vacía, False en caso contrario
     """
-    pass  # Reemplazar con tu implementación
+    
+    indice = len(lista)
+    
+    if indice > 0:
+        return False
+    else:
+        return True
+    
+autos = []
+print(is_empty(autos))
+

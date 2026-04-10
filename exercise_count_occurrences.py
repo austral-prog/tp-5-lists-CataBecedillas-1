@@ -11,4 +11,11 @@ def count_occurrences(lista, elemento):
     Returns:
         Un entero con la cantidad de veces que aparece el elemento
     """
-    pass  # Reemplazar con tu implementación
+    
+    ocurrencias = lista.count(elemento) #te cuenta en "lista" la cantidad de veces que aparece la variable "elemento".
+
+    return ocurrencias
+
+autos = ["Porsche" , "Ferrari", "Lamborghini", "Porsche", "Tesla", "Audi", "BMW", "Mercedes Benz", "Pagani"]
+elemento = "Porsche"
+print(count_occurrences(autos, elemento))
